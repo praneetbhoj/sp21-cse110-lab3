@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>Praneet's Journal</title>
+        <link rel="icon" href="book_favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Journal for CSE 110 Lab 2">
+        <meta name="author" content="Praneet Bhoj">
+    </head>
+    <body>
+        <header>
+            <h1>Praneet's Journal (CSE 110 Lab 2)</h1>
+            <nav>
+                <ul>
+                    <li><a href="#April5">Monday, April 5</a></li>
+                    <li><a href="#April6">Tuesday, April 6</a></li>
+                    <li><a href="#April7">Wednesday, April 7</a></li>
+                    <li><a href="#NewEntry">New Entry</a></li>
+                    <li><a href="#Subscribe">Subscribe</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2 id="April5">Monday, April 5</h2>
+                <p>
+                    Today was the NCAA March Madness championship game! March Madness is one of my favorite tournaments every year, so I was really glad to see it successfully completed this year after last year's tournament was cancelled
+                    due to the COVID-19 pandemic. I believed that Gonzaga was going to win the game and complete their undefeated season (I also picked them to win the tournament on my bracket), so I was really surprised (like many other
+                    people were as well) by the <b>dominant</b> performance by Baylor. Nonetheless, Baylor was a deserving champion and I found the tournament overall to be really entertaining, which is always what I'm looking for from March
+                    Madness!
+                </p>
+                <img width="500" src="https://pbs.twimg.com/media/EyQzViKXMAAsp5I?format=jpg&name=large">
+                <div>
+                    <h3>Important tasks completed:</h3>
+                    <ol>
+                        <li>Attended lectures</li>
+                        <li>Worked on weekly HIUS 113 assignment</li>
+                        <li>Went for a run</li>
+                        <li>Finished CSE 101 homework</li>
+                    </ol>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="April6">Tuesday, April 6</h2>
+                <p>
+                    Today I was assigned to my team for the quarter-long CSE 110 project. Although I don't know any of the other people in my group, I am still looking forward to working with them to create something cool. Plus, I think
+                    it will be a great experience for me because it will allow me to learn how to successfully collaborate with a new team of people in a software engineering setting, and I can make some new friends along the way, which
+                    will be refreshing for me after spending so much time in quarantine during the COVID-19 pandemic.
+                </p>
+                <div>
+                    <h3>Important tasks completed:</h3>
+                    <ol>
+                        <li>Attended lectures</li>
+                        <li>Finished PHYS 162 homework</li>
+                        <li>Joined my CSE 110 project team's Slack workspace</li>
+                        <li>Played basketball</li>
+                        <li>Watched assigned movie for HIUS 113</li>
+                    </ol>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="April7">Wednesday, April 7</h2>
+                <p>
+                    Today, I watched as SpaceX launched another 60 of its <i>Starlink</i> satellites into orbit. They did so using their <i>Falcon 9</i> rocket, which carried the satellites into orbit and then landed back on Earth. I still find it
+                    incredible that SpaceX has been able to engineer a rocket that can launch into orbit and <em>consistently</em> stick the landing back on Earth to be reused for future missions! Watching the launch reminded me of the Crew Dragon
+                    Demo-2 mission that took place last year. It was one of the most awe-inspiring moments for me in recent memory since it was the first time in almost a decade that Americans were launched into space from American soil
+                    in almost a decade, and I saw an interesting animation of the mission which you can check out below.
+                </p>
+                <video controls width="500" src="https://images-assets.nasa.gov/video/KSC-20200513-MH-SPX01-0001-SpaceX_Demo-2_Mission_Animation-3250103/KSC-20200513-MH-SPX01-0001-SpaceX_Demo-2_Mission_Animation-3250103~orig.mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>
+                    And if you want to know more about that historic mission, I found an episode of a cool NASA podcast that provided even more background information about it. You can listen to it below!
+                </p>
+                <audio controls src="https://images-assets.nasa.gov/audio/Ep145_Space%20X%20Demo-2/Ep145_Space%20X%20Demo-2~orig.mp3">
+                    Your browser does not support the audio tag.
+                </audio>
+                <div>
+                    <h3>Important tasks completed:</h3>
+                    <ol>
+                        <li>Attended lectures</li>
+                        <li>Submitted CSE 101 and PHYS 162 homeworks</li>
+                        <li>Went for a run</li>
+                        <li>Worked on CSE 110 lab</li>
+                    </ol>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <h2 id="NewEntry">New Entry</h2>
+                <form>
+                    <fieldset>
+                        <legend>Create a new journal entry</legend>
+                        <div>
+                            <textarea rows="10" cols="100" placeholder="Enter text here!" required></textarea>
+                        </div>
+                        <span>
+                            Author:
+                            <select required>
+                                <option></option>
+                                <option>Praneet Bhoj</option>
+                                <option>Guest</option>
+                            </select>
+                        </span>
+                        <span>
+                            Date:
+                            <input type="date" required>
+                        </span>
+                        <span>
+                            Tags:
+                            <input list="tags">
+                            <datalist id="tags">
+                                <option value="Academics">
+                                <option value="Sports">
+                                <option value="Technology">
+                                <option value="Other">
+                            </datalist>
+                        </span>
+                        <span>
+                            Visibility:
+                            <input type="radio" id="public" name="visibility" required>
+                            <label for="public">Public</label>
+
+                            <input type="radio" id="private" name="visibility">
+                            <label for="private">Private</label>
+                        </span>
+                        <div>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            <section>
+                <h2 id="Subscribe">Subscribe</h2>
+                <strong>Be sure to subscribe so you don't miss the next journal entry!</strong>
+                <form>
+                    <span>
+                        Name:
+                        <input type="text" required>
+                    </span>
+                    <br>
+                    <span>
+                        Email:
+                        <input type="email" required>
+                    </span>
+                    <br>
+                    <span>
+                        <input type="checkbox" id="notify-me" checked>
+                        <label for="notify-me">Notify me for all journal updates</label>
+                    </span>
+                    <br>
+                    <span>
+                        <button type="submit">Subscribe</button>
+                    </span>
+                </form>
+            </section>
+            <hr>
+            <details>
+                <summary>About</summary>
+                My name is Praneet Bhoj, an I'm a 2nd year computer science major at UC San Diego. This simple journal was made for the 2nd lab in my CSE 110 (Software Engineering) course to help familiarize us with HTML.
+            </details>
+        </footer>
+    </body>
+</html>
