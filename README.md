@@ -1,1 +1,1 @@
-published site URL: https://praneetbhoj.github.io/Lab2/
+published site URL: https://praneetbhoj.github.io/sp21-cse110-lab3/
