@@ -125,11 +125,33 @@ section.journal_entry > img {
     grid-row-end: 4;
 }
 
+section.journal_entry > video {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+section.journal_entry > audio {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+*[controls] {
+    align-self: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
 section.journal_entry > div {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
+}
+
+*[controls] {
+    align-self: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 section.new_journal_entry > .new_journal_entry_info {
